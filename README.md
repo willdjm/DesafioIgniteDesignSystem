@@ -5,13 +5,13 @@
 
 Nesse desafio implementamos o componente de TOAST e o componente de TOOLTIP ao Storybook
 
-Toast
+## Toast
 
 <p align="center">
   <img alt="Componente Toast" src="toast.png" width="100%">
 </p>
 
-Tooltip
+## Tooltip
 
 <p align="center">
   <img alt="Componente Tooltip" src="tooltip.png" width="100%">
