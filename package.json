@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev --parallel",
+        "build": "turbo run build",
+        "changeset": "changeset",
+        "version-packages": "changeset version",
+        "release": "turbo run build --filter=!docs && changeset publish"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.26.2",
+        "turbo": "^1.10.15"
+    },
+    "dependencies": {
+        "@storybook/addon-a11y": "^7.4.6"
+    }
+}
